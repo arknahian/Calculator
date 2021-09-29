@@ -14,34 +14,40 @@
     <main>
         <section id="calculator">
             <div class="btn-container">
-                <input id="interface-display" value="0" class="user-input" type="text">
 
+                <div id="remaining" class="remaining">
+                    <h1>Calculator</h1>
+                </div>
+                <input id="interface-display" placeholder="0" class="user-input" type="text">
+                <div id="result" class="remaining">
+                    result
+                </div>
 
                 <a class="numb-btn functionality-symbol">CE</a>
-                <a class="numb-btn functionality-symbol">C</a>
+                <a id="clear-btn" class="numb-btn functionality-symbol">C</a>
                 <a class="numb-btn functionality-symbol">X</a>
-                <a class="numb-btn math-symbol">/</a>
-            
+                <a id="divide" class="numb-btn math-symbol">/</a>
 
-                <a class="numb-btn">7</a>
-                <a class="numb-btn">8</a>
-                <a class="numb-btn">9</a>
+
+                <a class="numb-btn num-symbol">7</a>
+                <a class="numb-btn num-symbol">8</a>
+                <a class="numb-btn num-symbol">9</a>
                 <a class="numb-btn math-symbol">*</a>
 
-                <a class="numb-btn">4</a>
-                <a class="numb-btn">5</a>
-                <a class="numb-btn">6</a>
+                <a class="numb-btn num-symbol">4</a>
+                <a class="numb-btn num-symbol">5</a>
+                <a class="numb-btn num-symbol">6</a>
                 <a class="numb-btn math-symbol">-</a>
 
-                <a class="numb-btn">1</a>
-                <a class="numb-btn">2</a>
-                <a class="numb-btn">3</a>
+                <a class="numb-btn num-symbol">1</a>
+                <a class="numb-btn num-symbol">2</a>
+                <a class="numb-btn num-symbol">3</a>
                 <a class="numb-btn math-symbol">+</a>
 
                 <a class="numb-btn functionality-symbol">ZZ</a>
-                <a class="numb-btn">0</a>
-                <a class="numb-btn math-symbol">.</a>
-                <a class="numb-btn math-symbol">=</a>
+                <a class="numb-btn num-symbol">0</a>
+                <a class="numb-btn num-symbol">.</a>
+                <a id="isEqual" class="numb-btn">=</a>
             </div>
         </section>
     </main>
