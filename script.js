@@ -12,19 +12,6 @@ document.getElementById("clear-btn").addEventListener("click", function () {
 })
 
 
-
-
-// document.getElementById("divide").addEventListener("click", function () {
-//     var remainingDisplay = document.getElementById("remaining");
-//     remainingDisplay.style.display = "block";
-//     remainingDisplay.innerText = document.getElementById("interface-display").value + "/";
-//     document.getElementById("interface-display").value = "";
-
-//     var remainingValue = remainingDisplay.innerText;
-//     // console.log("/" == remainingDisplay.innerText);
-
-// })
-
 var mathSymbol = document.getElementsByClassName("math-symbol");
 for (let i = 0; i < mathSymbol.length; i++) {
     const element = mathSymbol[i];
@@ -67,18 +54,5 @@ document.getElementById("isEqual").addEventListener("click", function () {
         console.log(x + y);
         document.getElementById("result").innerText =  x + y;
     }
-
-
-
-
-
-    // if (symbol == "/" && x + symbol === xInput) {
-    //     console.log(x / y);
-    // }
-    // else if (symbol == "*" && x + symbol === xInput) {
-    //     console.log(x * y);
-    // }
-    // console.log(x+symbol === xInput);
-    // console.log(x);
 
 })
